@@ -5,7 +5,7 @@ function validate(){
 var password = document.getElementById("password").value;
 if (  password == "110010"){
 alert ("YOU GOT IT RIGHT!!!");
-window.location = "index.html"; // Redirecting to other page.
+window.location = "success.html"; // Redirecting to other page.
 return false;
 }
 else{
